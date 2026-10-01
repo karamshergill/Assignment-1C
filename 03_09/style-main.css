@@ -346,9 +346,13 @@ CSS Grid layout for modern browsers:
 			grid-column: 1/4;
 		}
 
+		.sidebar {
+			display: inherit;
+			grid-template-columns: inherit;
+		}
+
 		.colophon {
 			grid-column: 1/4;
 		}
 	}
-
 }
