@@ -327,7 +327,7 @@ CSS Grid layout for modern browsers:
 
 		.sidebar {
 			grid-column: 1/2;
-			grid-row: 2/4;
+			grid-row: 2/3;
 		}
 
 		.colophon {
