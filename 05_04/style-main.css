@@ -28,7 +28,8 @@ Accessibility
 	text-decoration: none;
 	top: 5px;
 	width: auto;
-	z-index: 100000; /* Above WP toolbar */
+	z-index: 100000;
+	/* Above WP toolbar */
 }
 
 /*--------------------------------------------------------------
@@ -84,12 +85,12 @@ address {
 }
 
 pre {
-    display: inline-block;
-    font-family: "Courier 10 Pitch", Courier, monospace;
-    color: #ddca7e;
-    background: #282c34;
+	display: inline-block;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	color: #ddca7e;
+	background: #282c34;
 	padding: .5em .8em;
-    border-radius: .2em;
+	border-radius: .2em;
 }
 
 code,
@@ -197,7 +198,7 @@ Cards:
 
 .card a {
 	display: block;
-	padding: 0 1em;
+	padding: 0;
 	color: hsl(0, 0%, 5%);
 	text-align: center;
 	text-decoration: none;
@@ -240,4 +241,3 @@ Cards:
 /*--------------------------------------------------------------
 Card grid:
 --------------------------------------------------------------*/
-
