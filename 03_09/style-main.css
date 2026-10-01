@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 Accessibility
 --------------------------------------------------------------*/
+
 /* Text meant only for screen readers */
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -29,8 +30,8 @@ Accessibility
 	top: 5px;
 	width: auto;
 	z-index: 100000;
-	/* Above WP toolbar */
 }
+
 
 /*--------------------------------------------------------------
 Typography
@@ -167,7 +168,9 @@ img {
 }
 
 
-/* Promo section */
+/*--------------------------------------------------------------
+Promo section
+--------------------------------------------------------------*/
 
 .logo,
 .site-title {
@@ -183,7 +186,10 @@ img {
 	margin-bottom: 3em;
 }
 
-/* Splash section */
+
+/*--------------------------------------------------------------
+Splash section
+--------------------------------------------------------------*/
 
 .splash {
 	background: #FFF6E5;
@@ -195,6 +201,7 @@ img {
 }
 
 @media screen and (min-width: 600px) {
+
 	.splash-text {
 		columns: 2;
 		column-gap: 2em;
@@ -203,9 +210,13 @@ img {
 	.splash-text p {
 		padding-top: 0;
 	}
+
 }
 
-/* Buckets section */
+
+/*--------------------------------------------------------------
+Buckets section
+--------------------------------------------------------------*/
 
 .buckets {
 	padding: 2em 1em 1em;
@@ -227,7 +238,10 @@ img {
 	padding: 1.5em;
 }
 
-/* More section */
+
+/*--------------------------------------------------------------
+More section
+--------------------------------------------------------------*/
 
 .more {
 	padding: 2em;
@@ -237,7 +251,10 @@ img {
 	padding: 1.5em;
 }
 
-/* Twins section */
+
+/*--------------------------------------------------------------
+Twins section
+--------------------------------------------------------------*/
 
 .sidebar {
 	background: hsl(0, 0%, 90%);
@@ -253,7 +270,11 @@ img {
 	background: #FF7F66;
 }
 
-/* Colophon section */
+
+/*--------------------------------------------------------------
+Colophon section
+--------------------------------------------------------------*/
+
 .colophon {
 	padding: 2em;
 	background: hsl(0, 0%, 10%);
@@ -276,6 +297,7 @@ Use flex to create a three-bucket layout
 --------------------------------------------------------------*/
 
 @media screen and (min-width: 700px) {
+
 	@supports (display: flex) {
 
 		.buckets ul {
@@ -288,10 +310,12 @@ Use flex to create a three-bucket layout
 		}
 
 	}
+
 }
 
+
 /*--------------------------------------------------------------
-Basic responsive layout for all browsers:
+Basic responsive layout for all browsers
 --------------------------------------------------------------*/
 
 .site {
@@ -301,10 +325,14 @@ Basic responsive layout for all browsers:
 
 
 /*--------------------------------------------------------------
-CSS Grid layout for modern browsers:
+CSS Grid layout for modern browsers
 --------------------------------------------------------------*/
 
 @supports (grid-area: auto) {
+
+	/*----------------------------------------------------------
+    Medium screens
+    ----------------------------------------------------------*/
 
 	@media screen and (min-width: 50em) {
 
@@ -337,6 +365,10 @@ CSS Grid layout for modern browsers:
 
 	}
 
+
+	/*----------------------------------------------------------
+    Wide screens
+    ----------------------------------------------------------*/
 
 	@media screen and (min-width: 65em) {
 
