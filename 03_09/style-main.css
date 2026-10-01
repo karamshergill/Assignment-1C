@@ -299,6 +299,7 @@ Basic responsive layout for all browsers:
 	margin: 0 auto;
 }
 
+
 /*--------------------------------------------------------------
 CSS Grid layout for modern browsers:
 --------------------------------------------------------------*/
@@ -336,6 +337,7 @@ CSS Grid layout for modern browsers:
 
 	}
 
+
 	@media screen and (min-width: 65em) {
 
 		.site {
@@ -360,5 +362,7 @@ CSS Grid layout for modern browsers:
 		.colophon {
 			grid-column: 1/4;
 		}
+
 	}
+
 }
